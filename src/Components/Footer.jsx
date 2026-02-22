@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="flex items-start gap-4">
               <MapPin className="w-6 h-6 text-[#e83e8c] flex-shrink-0 mt-1" />
               <p className="leading-relaxed max-w-md">
-                Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar (Hyderabad), Hyderabad, Secunderabad, Telangana, India — 500026
+                Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar (Hyderabad), Hyderabad, Secunderabad, Telangana, India  500026
               </p>
             </div>
             

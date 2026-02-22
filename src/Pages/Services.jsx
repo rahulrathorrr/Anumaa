@@ -27,7 +27,7 @@ const Services = () => {
       icon: <Activity className="w-8 h-8" />,
       desc: [
         "Most teams find out about problems from their users. We think that's backwards.",
-        "Our monitoring setup creates a living picture of your software's health — tracking response times, error rates, memory patterns, API behavior, and infrastructure signals around the clock. Powered by AI-assisted anomaly detection, the system learns what 'normal' looks like for your application and flags deviations the moment they appear."
+        "Our monitoring setup creates a living picture of your software's health  tracking response times, error rates, memory patterns, API behavior, and infrastructure signals around the clock. Powered by AI-assisted anomaly detection, the system learns what 'normal' looks like for your application and flags deviations the moment they appear."
       ],
       bullets: [
         "Custom-configured monitoring tailored to your stack",
@@ -43,7 +43,7 @@ const Services = () => {
       icon: <Bug className="w-8 h-8" />,
       desc: [
         "Bugs have a way of multiplying when left unmanaged. Our triage pipeline gives every defect a home: it gets logged, classified by severity and impact, assigned to the right engineer, and tracked until closure.",
-        "AI assists our engineers in rapidly parsing error logs, tracing stack traces, and identifying patterns across historical incidents — turning what used to be hours of detective work into minutes of focused resolution."
+        "AI assists our engineers in rapidly parsing error logs, tracing stack traces, and identifying patterns across historical incidents  turning what used to be hours of detective work into minutes of focused resolution."
       ],
       bullets: [
         "Structured bug intake and classification system",
@@ -58,7 +58,7 @@ const Services = () => {
       title: "Performance Tuning",
       icon: <Zap className="w-8 h-8" />,
       desc: [
-        "A slow application loses users. Our performance audit maps every layer of your stack — frontend load times, backend processing, database query efficiency, and third-party API dependencies — and identifies exactly where time and resources are being lost.",
+        "A slow application loses users. Our performance audit maps every layer of your stack  frontend load times, backend processing, database query efficiency, and third-party API dependencies  and identifies exactly where time and resources are being lost.",
         "We then implement targeted optimizations, test the impact, and hand you a documented record of what changed and why."
       ],
       bullets: [
@@ -74,7 +74,7 @@ const Services = () => {
       title: "Patch & Dependency Management",
       icon: <Shield className="w-8 h-8" />,
       desc: [
-        "Every library, framework, and tool your software uses comes with its own update cycle and vulnerability history. Keeping track of all of it manually is practically impossible — and skipping it is dangerous.",
+        "Every library, framework, and tool your software uses comes with its own update cycle and vulnerability history. Keeping track of all of it manually is practically impossible  and skipping it is dangerous.",
         "We maintain an automated dependency inventory for your application, run regular security scans, and apply patches on a structured cadence that minimizes disruption while keeping your stack secure and current."
       ],
       bullets: [
@@ -91,7 +91,7 @@ const Services = () => {
       title: "Incident Response",
       icon: <AlertTriangle className="w-8 h-8" />,
       desc: [
-        "When a critical incident hits, the first thirty minutes determine everything. Our incident response protocol activates immediately — bringing together the right people, tools, and context to stabilize your system as fast as possible.",
+        "When a critical incident hits, the first thirty minutes determine everything. Our incident response protocol activates immediately  bringing together the right people, tools, and context to stabilize your system as fast as possible.",
         "Post-incident, we deliver a detailed post-mortem: what happened, why it happened, and what changes prevent a recurrence. No more guessing. No more repeated mistakes."
       ],
       bullets: [
@@ -107,8 +107,8 @@ const Services = () => {
       title: "AI-Augmented Code Review & Maintenance",
       icon: <Code className="w-8 h-8" />,
       desc: [
-        "Code that works today might break tomorrow — not because anything changed in your codebase, but because the world around it changed. Deprecated APIs, shifting runtime behaviors, accumulating tech debt.",
-        "Our AI-augmented code review service runs periodic analysis of your codebase, flagging risky patterns, dead code, missing test coverage, and areas of high complexity — giving your team a roadmap for sustainable maintenance."
+        "Code that works today might break tomorrow  not because anything changed in your codebase, but because the world around it changed. Deprecated APIs, shifting runtime behaviors, accumulating tech debt.",
+        "Our AI-augmented code review service runs periodic analysis of your codebase, flagging risky patterns, dead code, missing test coverage, and areas of high complexity  giving your team a roadmap for sustainable maintenance."
       ],
       bullets: [
         "Periodic AI-assisted codebase analysis",
@@ -152,7 +152,7 @@ const Services = () => {
             Everything Your Software Needs to Stay Healthy, Fast, and Secure.
           </p>
           <p className="text-lg text-gray-600 font-medium max-w-3xl mx-auto leading-relaxed">
-            At Anumaa, our services aren't packaged as generic bundles. They're built around the actual lifecycle of production software — from the first deployment through years of growth and evolution.
+            At Anumaa, our services aren't packaged as generic bundles. They're built around the actual lifecycle of production software  from the first deployment through years of growth and evolution.
           </p>
         </motion.div>
       </section>
@@ -244,7 +244,7 @@ const Services = () => {
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight uppercase">Support Plans</h2>
             <div className="w-20 h-1 bg-[#e83e8c] mx-auto mt-6 mb-6"></div>
             <p className="text-xl text-gray-600 font-medium">
-              We offer three engagement tiers — all flexible, no lock-ins:
+              We offer three engagement tiers  all flexible, no lock-ins:
             </p>
           </motion.div>
 
@@ -256,7 +256,7 @@ const Services = () => {
             <motion.div variants={fadeIn} whileHover={{ y: -10 }} className="bg-white p-10 border border-gray-200 shadow-sm hover:border-[#e83e8c] hover:shadow-xl transition-all duration-300 relative group">
               <div className="absolute top-0 left-0 w-full h-1 bg-gray-200 group-hover:bg-[#e83e8c] transition-colors"></div>
               <h3 className="text-2xl font-black uppercase text-black mb-2">Starter</h3>
-              <p className="text-[#e83e8c] font-bold mb-6 h-12">— For small teams and early-stage products</p>
+              <p className="text-[#e83e8c] font-bold mb-6 h-12"> For small teams and early-stage products</p>
               <p className="text-gray-600 leading-relaxed">
                 Core monitoring setup, monthly health reports, business-hours support, and up to 10 hours of bug resolution per month.
               </p>
@@ -267,7 +267,7 @@ const Services = () => {
               <div className="absolute top-0 left-0 w-full h-1 bg-[#e83e8c]"></div>
               <div className="absolute -top-4 right-4 bg-[#e83e8c] text-white text-xs font-bold px-3 py-1 uppercase tracking-wider">Most Popular</div>
               <h3 className="text-2xl font-black uppercase text-white mb-2">Growth</h3>
-              <p className="text-[#e83e8c] font-bold mb-6 h-12">— For scaling products with production traffic</p>
+              <p className="text-[#e83e8c] font-bold mb-6 h-12"> For scaling products with production traffic</p>
               <p className="text-gray-300 leading-relaxed">
                 Everything in Starter, plus extended support hours, proactive patching, performance audits, and 30 hours of maintenance per month.
               </p>
@@ -277,7 +277,7 @@ const Services = () => {
             <motion.div variants={fadeIn} whileHover={{ y: -10 }} className="bg-white p-10 border border-gray-200 shadow-sm hover:border-[#e83e8c] hover:shadow-xl transition-all duration-300 relative group">
               <div className="absolute top-0 left-0 w-full h-1 bg-gray-200 group-hover:bg-[#e83e8c] transition-colors"></div>
               <h3 className="text-2xl font-black uppercase text-black mb-2">Scale</h3>
-              <p className="text-[#e83e8c] font-bold mb-6 h-12">— For mission-critical applications</p>
+              <p className="text-[#e83e8c] font-bold mb-6 h-12"> For mission-critical applications</p>
               <p className="text-gray-600 leading-relaxed">
                 Everything in Growth, plus 24/7 incident response, AI-augmented code reviews, dedicated point of contact, and custom SLA agreements.
               </p>

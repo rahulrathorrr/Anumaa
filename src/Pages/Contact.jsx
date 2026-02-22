@@ -82,7 +82,7 @@ const Contact = () => {
             Let's Talk About Your Software
           </p>
           <p className="text-lg text-gray-600 font-medium max-w-3xl mx-auto leading-relaxed">
-            Whether you have a burning incident, a question about our services, or just want to understand what a software health audit looks like — we want to hear from you. No automated responses. A real person from our team will get back to you within a few hours.
+            Whether you have a burning incident, a question about our services, or just want to understand what a software health audit looks like  we want to hear from you. No automated responses. A real person from our team will get back to you within a few hours.
           </p>
         </motion.div>
       </section>
@@ -129,7 +129,7 @@ const Contact = () => {
                   <div>
                     <p className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-1">Address:</p>
                     <p className="text-lg text-gray-800 font-medium leading-relaxed">
-                      Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar (Hyderabad), Hyderabad, Secunderabad, Telangana, India — 500026
+                      Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar (Hyderabad), Hyderabad, Secunderabad, Telangana, India  500026
                     </p>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-black uppercase mb-6">What Happens After You Submit?</h3>
               <ul className="space-y-4">
                 {[
-                  "A team member reviews your message — no bots, no ticket queue black holes",
+                  "A team member reviews your message  no bots, no ticket queue black holes",
                   "You hear back within a few hours on business days",
                   "If it's a critical incident, indicate that in your message and we'll prioritize"
                 ].map((item, i) => (
@@ -241,7 +241,7 @@ const Contact = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="lg:w-1/3">
             <HelpCircle className="w-12 h-12 text-[#e83e8c] mb-6" />
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight uppercase mb-6">
-              FAQ — Quick Answers
+              FAQ  Quick Answers
             </h2>
             <div className="w-16 h-1 bg-[#e83e8c]"></div>
             

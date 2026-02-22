@@ -66,7 +66,7 @@ const TermsOfService = () => {
 
             <div className="space-y-6 pt-6">
               <h2 className="text-2xl font-extrabold text-black uppercase tracking-tight border-b-2 border-[#e83e8c] pb-2 inline-block">3. Intellectual Property</h2>
-              <p>All content on this website — including text, graphics, logos, images, and software — is the property of Anumaa Infra Technologies Private Limited and is protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content on this site without our express written consent.</p>
+              <p>All content on this website  including text, graphics, logos, images, and software  is the property of Anumaa Infra Technologies Private Limited and is protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content on this site without our express written consent.</p>
               <p>Any tools, methodologies, workflows, or proprietary systems developed by Anumaa in the course of providing services remain the intellectual property of Anumaa unless expressly assigned in writing.</p>
             </div>
 
@@ -77,13 +77,13 @@ const TermsOfService = () => {
 
             <div className="space-y-6 pt-6">
               <h2 className="text-2xl font-extrabold text-black uppercase tracking-tight border-b-2 border-[#e83e8c] pb-2 inline-block">5. Disclaimers</h2>
-              <p>Our website and services are provided 'as is' and 'as available.' While we make every effort to deliver accurate, reliable, and high-quality services, Anumaa makes no warranties — express or implied — regarding the uninterrupted availability of our website, the elimination of all software defects, or the fitness of our services for any particular purpose.</p>
+              <p>Our website and services are provided 'as is' and 'as available.' While we make every effort to deliver accurate, reliable, and high-quality services, Anumaa makes no warranties  express or implied  regarding the uninterrupted availability of our website, the elimination of all software defects, or the fitness of our services for any particular purpose.</p>
               <p>Software systems are inherently complex. Our services are designed to reduce risk and improve stability, but we do not guarantee zero downtime or zero incidents.</p>
             </div>
 
             <div className="space-y-6 pt-6">
               <h2 className="text-2xl font-extrabold text-black uppercase tracking-tight border-b-2 border-[#e83e8c] pb-2 inline-block">6. Limitation of Liability</h2>
-              <p>To the fullest extent permitted by applicable law, Anumaa Infra Technologies Private Limited shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our website or services — including but not limited to loss of data, loss of revenue, or business interruption — even if we have been advised of the possibility of such damages.</p>
+              <p>To the fullest extent permitted by applicable law, Anumaa Infra Technologies Private Limited shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our website or services  including but not limited to loss of data, loss of revenue, or business interruption  even if we have been advised of the possibility of such damages.</p>
               <p>Our total cumulative liability for any claim arising out of these Terms or the services provided shall not exceed the amount paid by you for the services in the three months preceding the event giving rise to the claim.</p>
             </div>
 
@@ -117,7 +117,7 @@ const TermsOfService = () => {
               <p>For questions regarding these Terms:</p>
               <div className="bg-gray-50 p-6 border-l-4 border-[#e83e8c]">
                 <p className="font-bold text-black mb-1">Anumaa Infra Technologies Private Limited</p>
-                <p>Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana — 500026, India</p>
+                <p>Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana  500026, India</p>
                 <p className="mt-2">Website: <a href="https://anumaainfratechno.in" className="text-[#e83e8c] hover:underline">anumaainfratechno.in</a></p>
               </div>
             </div>

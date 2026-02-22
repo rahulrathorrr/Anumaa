@@ -21,15 +21,15 @@ const staggerContainer = {
 const HowItWorks = () => {
   const phases = [
     {
-      title: "Phase 1 — Free Software Health Audit (Day 1–2)",
+      title: "Phase 1  Free Software Health Audit (Day 1–2)",
       icon: <Search className="w-8 h-8" />,
       content: (
         <>
           <p className="mb-4">
-            Every engagement starts with a no-cost health audit of your current software setup. This isn't a sales exercise — it's a real technical assessment.
+            Every engagement starts with a no-cost health audit of your current software setup. This isn't a sales exercise  it's a real technical assessment.
           </p>
           <p className="mb-6">
-            We look at your application architecture, deployment pipeline, error logs, dependency versions, and any historical incident data you're willing to share. What comes out the other side is a prioritized list of risks, gaps, and quick wins — yours to keep, regardless of whether you move forward with us.
+            We look at your application architecture, deployment pipeline, error logs, dependency versions, and any historical incident data you're willing to share. What comes out the other side is a prioritized list of risks, gaps, and quick wins  yours to keep, regardless of whether you move forward with us.
           </p>
           <p className="font-bold text-black uppercase mb-3 text-sm tracking-wider">What we assess:</p>
           <ul className="space-y-3">
@@ -51,22 +51,22 @@ const HowItWorks = () => {
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop"
     },
     {
-      title: "Phase 2 — Monitoring Setup & Baseline Calibration (Day 3–7)",
+      title: "Phase 2  Monitoring Setup & Baseline Calibration (Day 3–7)",
       icon: <Settings className="w-8 h-8" />,
       content: (
         <>
           <p className="mb-4">
-            Once you're onboarded, our team configures your monitoring environment. This isn't a generic setup — every alert threshold, every metric tracked, every escalation path is tuned to your application's specific behavior.
+            Once you're onboarded, our team configures your monitoring environment. This isn't a generic setup  every alert threshold, every metric tracked, every escalation path is tuned to your application's specific behavior.
           </p>
           <p>
-            Our AI models need about 3–5 days of live data to calibrate a behavioral baseline. After that, anomaly detection sharpens quickly — your system teaches ours what normal looks like, and we learn fast.
+            Our AI models need about 3–5 days of live data to calibrate a behavioral baseline. After that, anomaly detection sharpens quickly  your system teaches ours what normal looks like, and we learn fast.
           </p>
         </>
       ),
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop"
     },
     {
-      title: "Phase 3 — Ongoing Maintenance Rhythm (Week 2 Onwards)",
+      title: "Phase 3  Ongoing Maintenance Rhythm (Week 2 Onwards)",
       icon: <Activity className="w-8 h-8" />,
       content: (
         <>
@@ -93,12 +93,12 @@ const HowItWorks = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
     },
     {
-      title: "Phase 4 — Incident Response (As Needed)",
+      title: "Phase 4  Incident Response (As Needed)",
       icon: <AlertCircle className="w-8 h-8" />,
       content: (
         <>
           <p className="mb-4">
-            When incidents occur — and with complex software, some always do — our response protocol activates within minutes. You get a dedicated incident commander, real-time status updates, and a fix-first mentality.
+            When incidents occur  and with complex software, some always do  our response protocol activates within minutes. You get a dedicated incident commander, real-time status updates, and a fix-first mentality.
           </p>
           <p>
             After resolution, the post-mortem report closes the loop: root cause, timeline, resolution steps, and preventive changes. We treat every incident as a learning opportunity for both teams.
@@ -108,15 +108,15 @@ const HowItWorks = () => {
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
     },
     {
-      title: "Phase 5 — Continuous Improvement (Ongoing)",
+      title: "Phase 5  Continuous Improvement (Ongoing)",
       icon: <TrendingUp className="w-8 h-8" />,
       content: (
         <>
           <p className="mb-4">
-            The best maintenance programs don't just preserve software — they improve it over time. Each month, we bring you a set of forward-looking recommendations based on performance trends, emerging vulnerabilities, and product direction.
+            The best maintenance programs don't just preserve software  they improve it over time. Each month, we bring you a set of forward-looking recommendations based on performance trends, emerging vulnerabilities, and product direction.
           </p>
           <p className="bg-pink-50 p-4 font-medium text-black border border-pink-100">
-            Think of it as a standing technical advisory built into your support contract — at no extra charge.
+            Think of it as a standing technical advisory built into your support contract  at no extra charge.
           </p>
         </>
       ),
@@ -153,10 +153,10 @@ const HowItWorks = () => {
             HOW IT WORKS
           </h1>
           <p className="text-2xl md:text-3xl font-bold text-[#e83e8c] tracking-tight leading-tight">
-            From Day One to Day One Thousand — Here's How We Work With You
+            From Day One to Day One Thousand  Here's How We Work With You
           </p>
           <p className="text-lg text-gray-600 font-medium max-w-3xl mx-auto leading-relaxed">
-            Getting started with Anumaa is intentionally frictionless. We've designed the onboarding process to deliver real value in the first 48 hours — before any contract is signed.
+            Getting started with Anumaa is intentionally frictionless. We've designed the onboarding process to deliver real value in the first 48 hours  before any contract is signed.
           </p>
         </motion.div>
       </section>

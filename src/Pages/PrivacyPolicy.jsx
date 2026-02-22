@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
               <p>When you visit our website, we automatically receive certain technical information, including: IP address, browser type and version, operating system, pages visited, time and date of your visit, and referring URLs. This data is collected through standard web server logs and, where applicable, cookies.</p>
               
               <h3 className="text-xl font-bold text-gray-900 mt-4">1.3 Information from Service Engagements</h3>
-              <p>If you engage Anumaa for software support and maintenance, we may handle technical data related to your software systems — including logs, configuration information, and diagnostic data — solely for the purpose of delivering the contracted services.</p>
+              <p>If you engage Anumaa for software support and maintenance, we may handle technical data related to your software systems  including logs, configuration information, and diagnostic data  solely for the purpose of delivering the contracted services.</p>
             </div>
 
             <div className="space-y-6 pt-6">
@@ -92,7 +92,7 @@ const PrivacyPolicy = () => {
 
             <div className="space-y-6 pt-6">
               <h2 className="text-2xl font-extrabold text-black uppercase tracking-tight border-b-2 border-[#e83e8c] pb-2 inline-block">6. Cookies</h2>
-              <p>Our website may use cookies — small text files placed on your device — to enhance your browsing experience and collect usage analytics. You can configure your browser to refuse cookies or to alert you when cookies are being sent. Note that some features of our website may not function properly if cookies are disabled.</p>
+              <p>Our website may use cookies  small text files placed on your device  to enhance your browsing experience and collect usage analytics. You can configure your browser to refuse cookies or to alert you when cookies are being sent. Note that some features of our website may not function properly if cookies are disabled.</p>
             </div>
 
             <div className="space-y-6 pt-6">
@@ -121,7 +121,7 @@ const PrivacyPolicy = () => {
               <p>For privacy-related questions or requests:</p>
               <div className="bg-gray-50 p-6 border-l-4 border-[#e83e8c]">
                 <p className="font-bold text-black mb-1">Anumaa Infra Technologies Private Limited</p>
-                <p>Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana — 500026, India</p>
+                <p>Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana  500026, India</p>
                 <p className="mt-2">Website: <a href="https://anumaainfratechno.in" className="text-[#e83e8c] hover:underline">anumaainfratechno.in</a></p>
               </div>
             </div>

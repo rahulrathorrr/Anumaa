@@ -165,7 +165,7 @@ const About = () => {
                 </motion.div>
               ))}
               <motion.p variants={fadeIn} className="text-lg text-gray-600 leading-relaxed mt-8 bg-pink-50 p-6 border border-pink-100">
-                Our engineers aren't replaced by AI — they're amplified by it. They spend less time on routine triage and more time on the high-judgment work that actually moves the needle.
+                Our engineers aren't replaced by AI  they're amplified by it. They spend less time on routine triage and more time on the high-judgment work that actually moves the needle.
               </motion.p>
             </motion.div>
 
@@ -202,9 +202,9 @@ const About = () => {
         >
           {[
             { icon: <Target />, title: "Proactive over Reactive", desc: "We'd rather prevent an outage than respond to one. Every system we support gets the benefit of anticipation, not just resolution." },
-            { icon: <MessageSquare />, title: "Radical Transparency", desc: "You'll never wonder what's happening on our end. Clear communication, regular updates, and honest assessments — always." },
-            { icon: <Layers />, title: "Depth over Breadth", desc: "We specialize. Software support and maintenance is not a side offering for us — it's the entire product. That focus makes us better at it." },
-            { icon: <BookOpen />, title: "Continuous Learning", desc: "Every incident teaches us something. Every client system makes us sharper. We document, review, and improve — constantly." }
+            { icon: <MessageSquare />, title: "Radical Transparency", desc: "You'll never wonder what's happening on our end. Clear communication, regular updates, and honest assessments  always." },
+            { icon: <Layers />, title: "Depth over Breadth", desc: "We specialize. Software support and maintenance is not a side offering for us  it's the entire product. That focus makes us better at it." },
+            { icon: <BookOpen />, title: "Continuous Learning", desc: "Every incident teaches us something. Every client system makes us sharper. We document, review, and improve  constantly." }
           ].map((value, index) => (
             <motion.div 
               key={index} variants={fadeIn} whileHover={{ y: -5 }}
@@ -239,7 +239,7 @@ const About = () => {
           <div className="w-20 h-1 bg-[#e83e8c]"></div>
           
           <p className="text-2xl font-bold text-gray-200 uppercase tracking-wider pt-4">
-            Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana — 500026, India.
+            Plot No. 41 & 42, Ravi Colony, Mahendra Hills, Nehrunagar, Hyderabad, Telangana  500026, India.
           </p>
           
           <p className="text-lg text-gray-400 font-medium max-w-3xl leading-relaxed">
