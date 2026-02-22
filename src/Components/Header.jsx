@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const navLinks = [
@@ -16,15 +17,27 @@ const Header = () => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="w-full py-6 px-8 md:px-16 flex justify-between items-center bg-white sticky top-0 z-50 shadow-sm"
+      className="w-full py-4 px-8 md:px-16 flex justify-between items-center bg-white sticky top-0 z-50 shadow-sm"
     >
-      {/* Animated Logo */}
+      {/* Logo + Company Name */}
       <motion.div 
         animate={{ y: [0, -3, 0] }}
         transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
       >
-        <Link to="/" className="text-2xl md:text-3xl font-extrabold tracking-tighter text-black">
-          ANUMAA INFRA TECHNOLOGIES
+        <Link to="/" className="flex items-center gap-3">
+          
+          {/* Logo Image */}
+          <img 
+            src={logo} 
+            alt="logo" 
+            className="h-10 md:h-12 w-auto object-contain"
+          />
+
+          {/* Company Name */}
+          <span className="text-lg md:text-2xl font-extrabold tracking-tight text-black">
+            ANUMAA INFRA TECHNOLOGIES
+          </span>
+
         </Link>
       </motion.div>
 
@@ -42,7 +55,7 @@ const Header = () => {
             >
               {link.name}
             </Link>
-            {/* Small pink indicator on hover matching the theme */}
+
             <motion.div className="h-[2px] w-0 bg-[#e83e8c] group-hover:w-full transition-all duration-300 mt-1 absolute left-0" />
           </motion.div>
         ))}
